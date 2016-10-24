@@ -6,6 +6,7 @@ Example2: x = -123, return -321
 Neet to consider result might be 32-bit interger (From −2,147,483,648 to 2,147,483,647) overflow; if yes, return 0;
 */
 
+//time complexity: O(n/2) 
 const reverse = (x) => {
   let str = x.toString();
   let pre = '';

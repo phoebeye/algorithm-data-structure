@@ -1,5 +1,5 @@
 //Determine whether an integer is a palindrome. Do this without extra space.
-
+// time complexity: O(n) depends on number of digits in the integer
 const isPalindrome = (x) => {
   if (x < 0) {
     return false;

@@ -7,6 +7,7 @@ Y   I   R
 
 */
 
+//Time complexity: o(N) 
 const convert = (s, numRows) => {
   if(numRows === 1){ // 
       return s; 
