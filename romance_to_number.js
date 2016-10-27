@@ -6,7 +6,7 @@ time complexity: O(n);
 */
 
 const romanToInt = (s) => {
-  let lookup = {M: 1000, D: 500, C: 100, L: 50, X: 10, V: 5, I: 1};
+  let lookup = {M: 1000, D: 500, C: 100, L: 50, X: 10, V: 5, I: 1}; //lookup table only needs these characters
   let result = 0;
   if (s.length === 1) { //base case: if s.length === 1;
     return result + lookup[s];
